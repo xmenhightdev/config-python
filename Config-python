@@ -1,0 +1,27 @@
+# python on linux
+# install pip
+python3 get-pip.py
+
+# upgrade pip
+python3 -m pip install --upgrade pip
+
+
+# install python package
+python3 -m pip install <name package>
+
+# example:
+python3 -m pip install tensorflow pillow seaborn pyttsx3 pynput speechrecognition opencv-python
+ipython jupyter mysql-connector-python django sklearn scikit-learn pyfirmata gpiozero
+
+# python on windows
+python get-pip.py
+
+# upgrade pip
+python -m pip install --upgrade pip
+
+# install python package
+python -m pip install <name package>
+
+# example:
+python -m pip install tensorflow pillow seaborn pyttsx3 pynput speechrecognition opencv-python
+ipython jupyter mysql-connector-python django sklearn scikit-learn pyfirmata gpiozero
